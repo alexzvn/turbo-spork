@@ -1,0 +1,36 @@
+{
+  "name": "turbo-spork",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/alexzvn/turbo-spork#readme",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexzvn/turbo-spork.git"
+  },
+
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "node-ts": "^5.1.2",
+    "typescript": "^4.6.2"
+  },
+
+  "files": [
+    "lib"
+  ],
+
+  "bugs": {
+    "url": "https://github.com/alexzvn/turbo-spork/issues"
+  }
+}
