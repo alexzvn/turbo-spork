@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "keywords": [],
-  "author": "",
+  "author": "alexzvn",
   "license": "ISC",
   "homepage": "https://github.com/alexzvn/turbo-spork#readme",
   "main": "lib/index.js",
@@ -12,6 +12,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
+    "ci": "yarn install --frozen-lockfile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 
